@@ -50,7 +50,7 @@ public class HttpService {
 
     private HttpResponse<String> execute(HttpRequest request) {
         try {
-            logger.debug("HTTP {} {}", request.method(), request.uri());
+            // logger.debug("HTTP {} {}", request.method(), request.uri());
 
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 

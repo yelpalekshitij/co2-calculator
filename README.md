@@ -1,8 +1,7 @@
 # CO2 Calculator
 
 [![Java](https://img.shields.io/badge/Java-21-blue?logo=java&logoColor=white)](https://www.oracle.com/java/)  
-[![Gradle](https://img.shields.io/badge/Gradle-8.14-green?logo=gradle&logoColor=white)](https://gradle.org/)  
-[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+[![Gradle](https://img.shields.io/badge/Gradle-8.14-green?logo=gradle&logoColor=white)](https://gradle.org/)
 
 A simple, robust CLI tool to calculate CO2-equivalent emissions for trips between two cities using various transportation methods.
 
@@ -82,7 +81,7 @@ setx ORS_TOKEN "<your_api_key>"   # Windows (cmd)
 ```
 ### 3. Build the project
 ```bash
-./gradlew clean build
+./gradlew clean installDist
 ```
 ### 4. Run the CLI
 ```bash

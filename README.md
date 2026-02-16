@@ -90,6 +90,8 @@ setx ORS_TOKEN "<your_api_key>"   # Windows (cmd)
 ./co2-calculator.sh --start=Hamburg --end=Berlin --transportation-method=diesel-car-medium
 ```
 
+---
+
 ## 🧪 Testing
 
 Unit tests: validate argument parsing, emission calculations, service exceptions.
@@ -100,3 +102,11 @@ Run tests:
 ```shell
 ./gradlew test
 ```
+
+---
+
+###  AI is used for following tasks:
+
+- Generation of shell script (co2-calculator.sh).
+- Resolving build.gradle.kts issues to ensure all dependencies are correctly included in the JAR during Gradle build execution.
+- Referring some syntaxes in tests.

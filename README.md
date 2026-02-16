@@ -59,7 +59,7 @@ setx ORS_TOKEN "<your_api_key>"   # Windows (cmd)
 ```
 ### 2. Run the CLI
 ```bash
-# Unix / macOS /  Windows
+# Linux / macOS /  Windows
 ./co2-calculator.sh --start=Hamburg --end=Berlin --transportation-method=diesel-car-medium
 ```
 
